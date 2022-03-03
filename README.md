@@ -5,7 +5,7 @@ This was made in Tensorflow Version 2.8.0, Python 3.8 under Anaconda Virtual Env
 
 The model is trained on Several Images from the dataset and with my own face added
 
-#Layers Used:
+# Layers Used:
   tf.keras.layers.Rescaling(1./255),
   tf.keras.layers.Conv2D(32, 3, activation='relu'),
   tf.keras.layers.MaxPooling2D(),
